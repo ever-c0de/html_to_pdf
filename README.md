@@ -5,4 +5,5 @@
 🍰 HTML to PDF Drupal module that using WkHTMLtoPDF PHP library.<br>
 💁‍♀️ You can simply convert your nodes to PDF format.<br>
 🛠 <strong>Moreover</strong>, administrators can <strong>update</strong> which <strong>Nodes bundles</strong> can be converted.<br>
-
+For choose the node bundles that can be converted, navigate to Configuration->Development->HTML to PDF (/admin/config/development/generate-pdf-content-config).<br>
+After link "Get PDF Version" will appear on pages of this bundles.
