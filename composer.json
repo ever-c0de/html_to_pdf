@@ -1,7 +1,7 @@
 {
     "name": "ever/html_to_pdf",
     "type": "drupal-module",
-    "description": "Html to PDF module.",
+    "description": "With this Drupal module you can convert your nodes to PDF format.",
     "keywords": [
     ],
     "homepage": "https://www.drupal.org/project/html_to_pdf",
@@ -11,6 +11,7 @@
         "source": "http://cgit.drupalcode.org/html_to_pdf"
     },
     "require": {
+        "php": ">=7.4",
         "h4cc/wkhtmltopdf-amd64": "^0.12",
         "mikehaertl/phpwkhtmltopdf": "^2.5"
     }
