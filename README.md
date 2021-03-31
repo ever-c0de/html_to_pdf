@@ -8,4 +8,4 @@
 
 For choosing the node bundles that can be converted, navigate to Configuration->Development->HTML to PDF (/admin/config/development/generate-pdf-content-config).<br>
 
-After link "Get PDF Version" will appear on pages of this bundles.
+After this link "Get PDF Version" will appear on pages of this bundles.
