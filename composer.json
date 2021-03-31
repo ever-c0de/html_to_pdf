@@ -19,6 +19,7 @@
         "source": "http://cgit.drupalcode.org/html_to_pdf"
     },
     "require": {
+        "drupal/core": "^8.9.0",
         "php": ">=7.4",
         "h4cc/wkhtmltopdf-amd64": "^0.12",
         "mikehaertl/phpwkhtmltopdf": "^2.5"
