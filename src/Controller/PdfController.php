@@ -113,7 +113,7 @@ class PdfController extends ControllerBase {
    *   Path to binary.
    */
   protected function getBinary(): string {
-    return drupal_get_path('module', 'html_to_pdf') . '/vendor/bin/wkhtmltopdf-amd64';
+    return DRUPAL_ROOT . '/vendor/bin/wkhtmltopdf-amd64';
   }
 
 }
