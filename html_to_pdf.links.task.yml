@@ -1,0 +1,6 @@
+# Adds local task for PDF generation.
+html_to_pdf.pdf_tab:
+  title: Get PDF Version
+  route_name: html_to_pdf.pdf_tab
+  base_route: entity.node.canonical
+  weight: -9

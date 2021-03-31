@@ -1,0 +1,53 @@
+<?php
+
+/**
+ * @file
+ * Contains html_to_pdf.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function html_to_pdf_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the html_to_pdf module.
+    case 'help.page.html_to_pdf':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Html to PDF module.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ *
+ * Set standart values for html_to_pdf template.
+ */
+function html_to_pdf_theme(): array {
+  return [
+    'html_to_pdf' => [
+      'variables' => [
+        'content' => NULL,
+        'links' => NULL,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_local_tasks_alter().
+ *
+ * Simply sets target attribute for local task link.
+ *
+ * @param $local_tasks
+ *
+ * @return string
+ */
+function html_to_pdf_local_tasks_alter(&$local_tasks): string {
+  return $local_tasks['html_to_pdf.pdf_tab']['options']['attributes']['target'] = '_blank';
+}

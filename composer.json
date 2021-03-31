@@ -1,0 +1,17 @@
+{
+    "name": "ever/html_to_pdf",
+    "type": "drupal-module",
+    "description": "Html to PDF module.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/html_to_pdf",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/html_to_pdf",
+        "source": "http://cgit.drupalcode.org/html_to_pdf"
+    },
+    "require": {
+        "h4cc/wkhtmltopdf-amd64": "^0.12",
+        "mikehaertl/phpwkhtmltopdf": "^2.5"
+    }
+}

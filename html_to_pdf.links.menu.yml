@@ -1,0 +1,7 @@
+# Menu item for choosing the content types affected.
+module.pdf_settings_form:
+  title: HTML to PDF
+  description: 'Configure content types that can be converted in PDF.'
+  route_name: html_to_pdf.pdf_settings_form
+  parent: system.admin_config_development
+  wight: -100
