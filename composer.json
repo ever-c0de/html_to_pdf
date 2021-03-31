@@ -5,6 +5,14 @@
     "keywords": [
     ],
     "homepage": "https://www.drupal.org/project/html_to_pdf",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Lavrynenko Serhii (ever-c0de)",
+            "homepage": "https://github.com/ever-c0de",
+            "role": "Maintainer"
+        }
+    ],
     "minimum-stability": "dev",
     "support": {
         "issues": "https://www.drupal.org/project/issues/html_to_pdf",
